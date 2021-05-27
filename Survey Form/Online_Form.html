@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+    <title>Online Form</title>
+</head>
+<body>
+    <form action="Online_Form.html" class="survey-form">
+        <h1>Survey form</h1>
+
+        <div class="txtb">
+        <h3>Enter Your name: 
+        <input type="text" class="textbox" name="username" size="42" maxlength="50" value=""> 
+        </h3>
+        </div>
+
+        <br>
+
+        <div class="txtb">
+        <h3>Enter Your Department:<input type="text" class="textbox" name="Depart" size="35" maxlength="30" value=""> </h3>
+        </div>
+
+        <br>
+
+        <div class="txtb">
+        <h3>Tell us about yourself: <input name="comment" class="textbox" size="37" maxlength="50" > </input></h3>
+        </div>
+
+        <br>
+
+        <div>
+        <h3>Do you exercise at home? <br>
+        <input type="radio" name="exercise" value="1">Yes 
+        <input type="radio" name="exercise" value="2">No 
+        </h3>
+        </div>
+
+        <br>
+
+        <div>
+        <h3>How do you like to read about your favourite topics? <br>
+        <input type="checkbox" name="book">Books
+        <input type="checkbox" name="Online">Online Resources
+        <input type="checkbox" name="Magazines">Magazines
+        </h3>
+        </div>
+
+        <br>
+
+        <div>
+        <h3>What type of movies do you like? <br>
+        <select name="moviepref">
+            <option value="1" selected="true" >Romantic</option>
+            <option value="2">Comedy</option>
+            <option value="3">Thriller</option>
+            <option value="4">Horror</option>
+            <option value="5">Biopic</option>
+        </select>
+        </h3>
+        </div>
+        <br>
+       
+       <button class="subtn" > Submit</button>
+
+      
+    </form>
+    
+</body>
+</html>
